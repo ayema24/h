@@ -1,0 +1,123 @@
+body {
+    height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #3a3a3a;
+}
+h2{
+  font-family:serif;
+  text-transform: uppercase;
+}
+#firm{
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+#for{
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+#me{
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border-radius:5px;
+  border: none;
+  color: #fff;
+  background: #3a3a3a;
+  
+  font-weight: 500px
+}
+#me:hover{
+  background: mistyrose;
+  border: 1px solid #c6b830;
+  box-shadow: 1px 1px 2px #111;
+  color: #3a3a3a;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 ;
+  transition: all 300ms linear;
+}
+#see{
+  width: 50%;
+  height:70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+  padding: 70px;
+  margin-top: 59px;
+}
+#hold{
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: grid
+}
+#jo{
+  background: #e58f8f;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  width: 90%;
+  opacity: 0;
+  border: 1px solid #8a0000;
+  color: #8a0000
+}
+#hi{
+  background: #e58f8f;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  width: 90%;
+  opacity: 0;
+  border: 1px solid #8a0000;
+  color: #8a0000
+}
+#lame{
+  font-size: 12px;
+  display: flex;
+ outline: none;
+ 
+}
+.up{
+  
+  position: relative;
+  color: #3a3a3a;
+  margin-top: 5px;
+}
+.up:hover{
+  border-bottom: 2px solid #1FA54AD4;
+  color: #1F49A5D4;
+  font-size: 13px;
+  text-decoration: none;
+  transition: all .5s
+}
+.down{
+  left:30px;
+  position: relative;
+
+  color: #3a3a3a;
+  margin-top: 5px
+}
+.down:hover {
+  border-bottom: 2px solid #1FA54AD4;
+  color: #1F49A5D4;
+  font-size: 13px;
+  transition: all .5s;
+  text-decoration:none;
+}
